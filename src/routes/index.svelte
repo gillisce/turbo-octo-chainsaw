@@ -1,7 +1,6 @@
 <script lang="ts">
   import { theme } from './store'
-  import ToggleTheme from 'src/components/buttons/ToggleTheme.svelte'
-
+  import ToggleTheme from '$lib/Componenets/Buttons/ToggleTheme.svelte'
 </script>
 
 <svelte:head>
