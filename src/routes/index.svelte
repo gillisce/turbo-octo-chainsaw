@@ -1,8 +1,7 @@
 <script lang="ts">
   import { theme } from './store'
-  import ToggleTheme from '$lib/ToggleTheme.svelte'
-  import Counter from '$lib/Counter.svelte'
-  import Timer from '$lib/Timer.svelte'
+  import ToggleTheme from 'src/components/buttons/ToggleTheme.svelte'
+
 </script>
 
 <svelte:head>
