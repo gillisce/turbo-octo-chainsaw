@@ -1,8 +1,5 @@
 <script lang="ts">
   import { theme } from './store'
-  import ToggleTheme from '$lib/ToggleTheme.svelte'
-  import Counter from '$lib/Counter.svelte'
-  import Timer from '$lib/Timer.svelte'
 </script>
 
 <svelte:head>
@@ -13,7 +10,6 @@
   <!-- <meta name="keywords" content="Svelte, SvelteKit, Svelte-kit, Tailwind, HTML, CSS, JavaScript" /> -->
   <meta name="author" content="@gillisce" />
 </svelte:head>
-<ToggleTheme />
 
 <h1 class="text-5xl font-extrabold mb-2">Welcome to the personal and professional portfolio of Chris Gillis</h1>
 <h2 class="text-3xl font-bold mb-4">Web Development & Design in Northeast Ohio</h2>
