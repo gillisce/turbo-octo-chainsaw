@@ -41,7 +41,9 @@
         </div>
 
         <div class="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
-            <ToggleTheme ></ToggleTheme>
+           <div class="mx-2">            
+               <ToggleTheme ></ToggleTheme>
+           </div>
             <a href="https://www.linkedin.com/in/christopher-gillis-01872382/" class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                 aria-label="LinkedIn">
                 <svg class="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg"
