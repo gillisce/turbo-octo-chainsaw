@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/gillisce/turbo-octo-chainsaw">
-    <img src="octopus_chainsaw.png" alt="Logo" width="80" height="80">
+    <img src="octopus_chainsaw.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">SvelteKit Tailwind Portfolio Site</h3>
