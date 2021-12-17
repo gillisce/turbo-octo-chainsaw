@@ -3,6 +3,7 @@
   import { theme } from './store';
   import { onMount } from 'svelte';
   import MainNav from '$lib/Componenets/Navigation/MainNav.svelte';
+  import Footer from '$lib/Componenets/Navigation/Footer.svelte';
 
   onMount(() => {
     if ($theme === 'dark') {
@@ -16,3 +17,4 @@
 <main>
   <slot />
 </main>
+<Footer></Footer>
