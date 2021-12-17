@@ -1,0 +1,12 @@
+{
+   "Github":{
+        "Link": "https://github.com/gillisce",
+        "LinkText": "Github",
+        "Target": "_blank"
+   },
+   "ResumeDownload":{
+        "Url": "#",
+        "LinkText": "Download My Resume",
+        "Target": "_blank"
+   }
+}

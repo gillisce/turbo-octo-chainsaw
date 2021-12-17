@@ -1,0 +1,16 @@
+{
+    "ContactInfo":{
+        "FirstName": "Christopher",
+        "LastName": "Gillis",
+        "Preferred Name": "Chris",
+        "Email": "cgillis93@gmail.com",
+        "Phone": "724-814-2148",
+        "Address":{
+            "Street": " ",
+            "City": "Akron",
+            "State": "OH",
+            "Country": "USA",
+            "ZipCode": " "
+         }
+    }
+}
