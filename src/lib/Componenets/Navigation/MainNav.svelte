@@ -1,7 +1,21 @@
 
 <script lang="ts">
+    $: $theme, LogoSwitcher()
     import { theme } from '../../../../src/routes/store'
+    import DarkThemeLogo from  '$lib/assets/branding/png/color_no_background.png'
+    import LightThemeLogo from '$lib/assets/branding/png/black_no_background.png'
     import ToggleTheme from '../Buttons/ToggleTheme.svelte'
+    
+    let logo
+    function LogoSwitcher(){
+        if($theme == 'dark'){
+            logo = DarkThemeLogo
+        }else{
+            logo = LightThemeLogo
+        }
+    }
+    LogoSwitcher();
+
 </script>
 
 <nav class="bg-white shadow dark:bg-gray-800">
@@ -9,7 +23,9 @@
         <div class="lg:flex lg:items-center">
             <div class="flex items-center justify-between">
                 <div>
-                    <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
+                    <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="/">
+                        <img src="{logo}" alt="Chris Gillis (Logo)" >
+                    </a>
                 </div>
 
                 <!-- Mobile menu button -->
@@ -25,7 +41,7 @@
             <div class="flex flex-col text-gray-600 capitalize dark:text-gray-300 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
                 <a href="/" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">Home</a>
                 <a href="/about" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">About</a>
-                <a href="/projects" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">Projects</a>
+                <a href="/resume" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">Resume</a>
                 <a href="/blog" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">blog</a>
 
                 <div class="relative mt-4 lg:mt-0 lg:mx-4">
