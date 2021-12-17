@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>About</title>
+	<title>Resume</title>
 </svelte:head>
 
-<h1>About this site</h1>
-<p>TODO #2 ...</p>
+<h1>Resume</h1>
+<p>Coming Soon</p>

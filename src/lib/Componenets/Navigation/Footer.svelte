@@ -59,12 +59,12 @@
                 <div class="mt-6 lg:mt-0 lg:flex-1">
                     <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                         <div>
-                            <a href="/About" class="block mt-2 hover:underline">
+                            <a href="/about" class="block mt-2 hover:underline">
                                 <h3 class="text-gray-700 uppercase dark:text-white">About</h3>
                             </a>
                         </div>
                         <div>
-                            <a href="/Resume" class="block mt-2 hover:underline">
+                            <a href="/resume" class="block mt-2 hover:underline">
                                 <h3 class="text-gray-700 uppercase dark:text-white">Resume</h3>
                             </a>
                         </div>
